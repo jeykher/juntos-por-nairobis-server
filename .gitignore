@@ -4,8 +4,9 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-node_modules/
-dist/
+node_modules
+dist
+build
 
 # Compiled Java class files
 *.class
@@ -22,9 +23,6 @@ dist/
 # Maven
 target/
 dist/
-
-# JetBrains IDE
-.idea/
 
 # Unit test reports
 TEST*.xml
